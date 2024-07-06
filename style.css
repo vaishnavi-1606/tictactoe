@@ -1,0 +1,74 @@
+body{
+    font-family: "Indie FLower", serif;
+    background-color: #1d1d1d;
+    color: #e6e6e6;
+}
+#heading{
+    text-align: center;
+    font-size: 3em;
+}
+.grid_container{
+    display: grid;
+    grid-template-columns: repeat(3, 120px);
+    grid-template-rows: repeat(3, 120px);
+    gap: 4px 4px;/*Defines distance between rows in css grid*/
+    background-color: #e6e6e6;
+    width: 368px;
+    padding: 4px;/*Defines border of the Tic-Tac-Tow*/
+    margin: auto;
+}
+.grid_element{
+    position: relative;
+    text-align: center;
+    background-color: #1d1d1d;
+    font-size: 90px;
+
+}
+.grid_element:hover{
+    cursor: pointer;
+}
+#popup_window{
+    position: absolute;
+    text-align: center;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height:200px;
+    width: 300px;
+    margin: auto;
+    font-size: 25px;
+    background-color: #e6e6e6;
+    color: #1d1d1d;
+    border-radius: 5px;
+    padding-top: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: bold ;
+}
+#play_type{
+    position: relative;
+    top: 35px;
+}
+#play{
+    position: relative;
+    top:60px;
+}
+#popup_winner{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height:60px;
+    width:200px;
+    font-size: 25px;
+    font-weight: bold;
+    margin: auto;
+    border-radius: 3px;
+    background-color: #e6e6e6;
+    color: #1d1d1d;
+    text-align: center;
+    padding-top: 20px;
+    /* top:40px; */
+}
